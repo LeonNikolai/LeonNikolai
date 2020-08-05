@@ -1,1 +1,1 @@
-<a href="https://leonnikolai.com"><img src="https://raw.githubusercontent.com/LeonNikolai/LeonNikolai/802566652a7a3ce13f2dbaaa7b32b3a073ad0d37/svg.svg"></a>
+<a href="https://leonnikolai.com"><img src="https://raw.githubusercontent.com/LeonNikolai/LeonNikolai/fe57943e3b0cb6b650ab4d5b85ee27bd71f2d153/svg.svg"></a>
