@@ -1,7 +1,4 @@
-	<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-		<!-- <rect width="10" height="10">
-		  <animate attributeName="height" values="0;5;0" dur="10s" repeatCount="indefinite" />
-		</rect> -->
+	<svg  xmlns="http://www.w3.org/2000/svg">
 		<text x="0" y="40" font-weight="normal">
 			Myfefsdf
 			<animate attributeName="font-size" values="
@@ -10,5 +7,4 @@
 			15;
 			" dur="0.4s" repeatCount="indefinite" />
 		</text>
-
 	  </svg>
