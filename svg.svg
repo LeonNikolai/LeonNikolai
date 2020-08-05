@@ -1,61 +1,30 @@
-	<svg viewBox="0 0 584 200" xmlns="http://www.w3.org/2000/svg">
-		<rect width="584" height="200" fill="url('#myGradient')">
-
-		</rect> 
-		<rect width="4" height="200" fill="#000"> -->
-		<animate attributeName="x" 
-							values="0%;100%" dur="0.1s" repeatCount="indefinite" />
-		<animate attributeName="fill" 
-					values="transparent;#000;transparent;" dur="0.01s" repeatCount="indefinite" />
-		</rect> 
-
-		<defs>
-   		<linearGradient id="myGradient" gradientTransform="rotate(45)">
-		   <animate gradientTransform="stop-color" 
-							values="rotate(45); rotate(90)" dur="2s" repeatCount="indefinite" />
-			<stop offset="0%"  stop-color="#efe2f0"> 
-				<animate attributeName="stop-color" 
-							values="#efe2f0; #f1e6b8;#ccf1b2;#b9f0f0;#efe2f0;" dur="5s" repeatCount="indefinite" />
-			</stop>
-			<stop offset="100%"  stop-color="#efe2f0"> 
-				<animate attributeName="stop-color" 
-							values="#ccf1b2;#b9f0f0;#efe2f0;#f1e6b8;#ccf1b2;" dur="10s" repeatCount="indefinite" />
-			</stop>
-		</linearGradient>
-		</defs>
-		<filter id="displacementFilter2" width="200%" height="200%">
-			<feTurbulence type="turbulence" baseFrequency="0" numOctaves="100" result="turbulence"> 
-				<animate attributeName="baseFrequency" 
-						 values=" 0.003; 0.001; 0.003; " dur="2s" repeatCount="indefinite" />
-			</feTurbulence>
-			<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50"> 
-				<animate attributeName="scale" 
-						 values=" 0; 50; 0; " dur="10s" repeatCount="indefinite" />
-			</feDisplacementMap>
-		</filter>
-		<filter id="displacementFilter1" width="250%" height="250%">
-			<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="10" result="turbulence"> 
-				<animate attributeName="baseFrequency" 
-						 values=" 0.02; 0.01; 0.02; " dur="2s" repeatCount="indefinite" />
-				<animate attributeName="numOctaves" 
-						 values=" 0; 5; " dur="0.1s" repeatCount="indefinite" />
-			</feTurbulence>
-			<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="20"> 
-				<animate attributeName="scale" 
-						values=" 10; 20; 10; " dur="10s" repeatCount="indefinite" />
-			</feDisplacementMap>
-		</filter>
-		<text x="10" y="30" fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter1);" font-weight="bold">
-			Hi there 👋
-		</text>
-		<text x="140" y="70" transform="rotate(10, 0, -4)" fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter2);" font-weight="bold">
-			I'm Leon Nikolai Engelsvold
-			<animate attributeName="transform" values="
-			rotate(-10 50 100);
-			rotate(-0 0 10);
-			rotate(-10 50 100);
-			" dur="10s" repeatCount="indefinite" />
-		</text>
-		
-
-	  </svg>
+<svg viewBox="0 0 584 200" xmlns="http://www.w3.org/2000/svg">
+	<filter id="displacementFilter2" width="200%" height="200%">
+		<feTurbulence type="turbulence" baseFrequency="0" numOctaves="100" result="turbulence"> 
+			<animate attributeName="baseFrequency" values=" 0.003; 0.001; 0.003; " dur="2s" repeatCount="indefinite" />
+		</feTurbulence>
+		<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50"> 
+			<animate attributeName="scale" values=" 0; 50; 0; " dur="10s" repeatCount="indefinite" />
+		</feDisplacementMap>
+	</filter>
+	<filter id="displacementFilter1" width="250%" height="250%">
+		<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="10" result="turbulence"> 
+			<animate attributeName="baseFrequency" values=" 0.02; 0.01; 0.02; " dur="2s" repeatCount="indefinite" />
+			<animate attributeName="numOctaves" values=" 0; 5; " dur="0.1s" repeatCount="indefinite" />
+		</feTurbulence>
+		<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="20"> 
+			<animate attributeName="scale" values=" 10; 20; 10; " dur="10s" repeatCount="indefinite" />
+		</feDisplacementMap>
+	</filter>
+	<text x="10" y="30" fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter1);" font-weight="bold">
+		Hi there 👋
+	</text>
+	<text x="140" y="70" transform="rotate(10, 0, -4)" fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter2);" font-weight="bold">
+		I'm Leon Nikolai Engelsvold
+		<animate attributeName="transform" values="
+		rotate(-10 50 100);
+		rotate(-0 0 10);
+		rotate(-10 50 100);
+		" dur="10s" repeatCount="indefinite" />
+	</text>
+</svg>
