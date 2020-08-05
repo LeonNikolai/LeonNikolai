@@ -1,10 +1,43 @@
-	<svg  xmlns="http://www.w3.org/2000/svg">
-		<text x="0" y="40" font-weight="normal">
-			Myfefsdf
-			<animate attributeName="font-size" values="
+	<svg viewBox="0 0 584 200" xmlns="http://www.w3.org/2000/svg">
+		<rect width="584" height="200" fill="#efefef"/> 
+		<filter id="displacementFilter2" width="200%" height="200%">
+			<feTurbulence type="turbulence" baseFrequency="0" numOctaves="100" result="turbulence"> 
+				<animate attributeName="baseFrequency" 
+						 values=" 0.003; 0.001; 0.003; " dur="2s" repeatCount="indefinite" />
+			</feTurbulence>
+			<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50"> 
+				<animate attributeName="scale" 
+						 values=" 0; 50; 0; " dur="10s" repeatCount="indefinite" />
+			</feDisplacementMap>
+		</filter>
+		<filter id="displacementFilter1" width="250%" height="250%">
+			<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="10" result="turbulence"> 
+				<animate attributeName="baseFrequency" 
+						 values=" 0.02; 0.01; 0.02; " dur="2s" repeatCount="indefinite" />
+				<animate attributeName="numOctaves" 
+						 values=" 0; 5; " dur="0.1s" repeatCount="indefinite" />
+			</feTurbulence>
+			<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="20"> 
+				<animate attributeName="scale" 
+						values=" 10; 20; 10; " dur="10s" repeatCount="indefinite" />
+			</feDisplacementMap>
+		</filter>
+		<text x="10" y="30" fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter1);" font-weight="bold">
+			Hi there 👋
+			<!-- <animate attributeName="font-size" values="
 			15;
 			20;
 			15;
-			" dur="0.4s" repeatCount="indefinite" />
+			" dur="0.4s" repeatCount="indefinite" /> -->
 		</text>
+		<text x="170" y="100" fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter2);" font-weight="bold">
+			I'm Leon Nikolai Engelsvold
+			<animate attributeName="font-size" values="
+			25;
+			20;
+			25;
+			" dur="10s" repeatCount="indefinite" />
+		</text>
+		
+
 	  </svg>
