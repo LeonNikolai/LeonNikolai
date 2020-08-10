@@ -1,12 +1,4 @@
-<svg viewBox="0 0 584 200" xmlns="http://www.w3.org/2000/svg">
-	<filter id="displacementFilter2" width="200%" height="200%">
-		<feTurbulence type="turbulence" baseFrequency="0" numOctaves="100" result="turbulence"> 
-			<animate attributeName="baseFrequency" values=" 0.003; 0.001; 0.003; " dur="2s" repeatCount="indefinite" />
-		</feTurbulence>
-		<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50"> 
-			<animate attributeName="scale" values=" 0; 50; 0; " dur="10s" repeatCount="indefinite" />
-		</feDisplacementMap>
-	</filter>
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
 	<filter id="displacementFilter1" width="250%" height="250%">
 		<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="10" result="turbulence"> 
 			<animate attributeName="baseFrequency" values=" 0.02; 0.01; 0.02; " dur="2s" repeatCount="indefinite" />
@@ -16,15 +8,108 @@
 			<animate attributeName="scale" values=" 10; 20; 10; " dur="10s" repeatCount="indefinite" />
 		</feDisplacementMap>
 	</filter>
-	<text x="10" y="30" fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter1);" font-weight="bold">
+	<text x="10" y="30" 	fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter1);" font-weight="bold">
 		Hi there 👋
 	</text>
-	<text x="140" y="70" transform="rotate(10, 0, -4)" fill="" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter2);" font-weight="bold">
-		I'm Leon Nikolai Engelsvold
-		<animate attributeName="transform" values="
-		rotate(-10 50 100);
-		rotate(-0 0 10);
-		rotate(-10 50 100);
-		" dur="10s" repeatCount="indefinite" />
-	</text>
+
+	<g opacity="0">
+		<g opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		
+		<g  transform="translate(100, 0)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		<g  transform="translate(0, 100)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		
+		<g  transform="translate(100, 100)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		<animate attributeName="opacity" values="1;0;" dur="2s" begin="mouseover" />
+	</g>
+	<g transform="translate(200, 0)" opacity="0">
+		<g opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		
+		<g  transform="translate(100, 0)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		<g  transform="translate(0, 100)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		
+		<g  transform="translate(100, 100)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		<animate attributeName="opacity" values="1;0;" dur="2s" begin="mouseover" />
+	</g>
+	<g transform="translate(400, 0)" opacity="0">
+		<g opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		
+		<g  transform="translate(100, 0)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		<g  transform="translate(0, 100)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		
+		<g  transform="translate(100, 100)" opacity="0.5">
+			<rect x="0" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="0" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="0"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<rect x="50" y="50"		width="50" height="50" 	fill="" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="2s" begin="mouseover" /></rect>
+			<animate attributeName="opacity" values="1;0.5;" dur="1s" begin="mouseover" />
+		</g>
+		<animate attributeName="opacity" values="1;0;" dur="2s" begin="mouseover" />
+	</g>
+	
 </svg>
