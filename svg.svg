@@ -1,18 +1,12 @@
-<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
 	<defs>
 	
 	</defs>
 	<clipPath id="myClip">
- 		<rect height="150" width="452.5" y="12.5" x="12.5"> 
-		 </rect>
- 		<rect height="150" width="100" y="12.5" x="485"> 
-		 </rect>
-  		<!-- <path transform="rotate(90 500,100) translate(0 50)"  d="m425, 150 l75,-150 l75,150 l-140,0z"> 
-		  
-			<animate attributeName="d" values="m425, 150 l75,-150 l75,150 l-140,0z; m425, 200 l75,-150 l75,150 l-140,0z; m425, 150 l75,-150 l75,150 l-140,0z;" dur="1.5s" begin="0s" repeatCount="indefinite" />
-		</path> -->
+ 		<rect height="150" rx="5" ry="5" width="452.5" y="12.5" x="12.5"/> 
+ 		<rect height="150" rx="5" ry="5" width="100" y="12.5" x="485"/>
 	</clipPath>
-	<rect fill="#222" width="600" height="200"></rect>
+	<rect fill="#222" rx="10" ry="10" width="600" height="220"></rect>
 	<g clip-path="url(#myClip)">
 		<g opacity="0">
 			<g opacity="0.5">
@@ -234,7 +228,7 @@
 	<text x="15" y="40" fill="#fff" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter1);" font-weight="bold">
 		Hi there 👋
 	</text>
-	<text x="55" y="187.5" fill="#fff" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter2);" font-weight="bold">
+	<text x="15" y="195" fill="#fff" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter2);" font-weight="bold">
 		I'm Leon Nikolai Engelsvold
 	</text>
 	
