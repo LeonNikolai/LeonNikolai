@@ -4,7 +4,7 @@
 ## WEBSITES
 [RGB.codes](https://rgb.codes)<br/>
 [LeonNikolai.com](https://LeonNikolai.com)<br/>
-## Minecraft Datapacks
+## Stats
 ![LeonNikolai' Github Stats](https://github-readme-stats.vercel.app/api?username=LeonNikolai&theme=vue&count_private=true&show_icons=true)<br>
 Useless stats because of minecraft datapacks 😢 Mistakes where made<br>
 ![LeonNikolai' Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LeonNikolai&layout=compact&theme=vue)
