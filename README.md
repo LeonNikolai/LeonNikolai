@@ -3,7 +3,7 @@
 
 ## Things
 [color](https://color.leonnikolai.com)<br/>
-[minecraft dataoacjs](https://www.planetminecraft.com/member/leonnikolai/)<br/>
+[minecraft datapacks](https://www.planetminecraft.com/member/leonnikolai/)<br/>
 [LeonNikolai.com](https://LeonNikolai.com)<br/>
 ## Stats
 ![LeonNikolai' Github Stats](https://github-readme-stats.vercel.app/api?username=LeonNikolai&theme=vue&count_private=true&show_icons=true)<br>
