@@ -1,0 +1,235 @@
+<svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+	
+	</defs>
+	<clipPath id="myClip">
+ 		<rect height="150" rx="5" ry="5" width="452.5" y="12.5" x="12.5"/> 
+ 		<rect height="150" rx="5" ry="5" width="100" y="12.5" x="485"/>
+	</clipPath>
+	<rect fill="#222" rx="10" ry="10" width="600" height="220"></rect>
+	<g clip-path="url(#myClip)">
+		<g opacity="0">
+			<g opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 0)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+			</g>
+			<g  transform="translate(0, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1.5s" repeatCount="indefinite" />
+			</g>
+			<animate attributeName="opacity" values="0.9;0;" dur="3s" begin="0s" repeatCount="indefinite" />
+		</g>
+		<g transform="translate(100, 0)" opacity="0">
+			<g opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 0)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+			</g>
+			<g  transform="translate(0, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1.5s" repeatCount="indefinite" />
+			</g>
+			<animate attributeName="opacity" values="0.9;0;" dur="3s" begin="0.5s" repeatCount="indefinite" />
+		</g>
+		<g transform="translate(200, 0)" opacity="0">
+					<g opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 0)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+			</g>
+			<g  transform="translate(0, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1.5s" repeatCount="indefinite" />
+			</g>
+			<animate attributeName="opacity" values="0.9;0;" dur="3s" begin="1s" repeatCount="indefinite" />
+		</g>
+			<g transform="translate(300, 0)" opacity="0">
+			<g opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 0)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+			</g>
+			<g  transform="translate(0, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1.5s" repeatCount="indefinite" />
+			</g>
+			<animate attributeName="opacity" values="0.9;0;" dur="3s" begin="1.5s" repeatCount="indefinite" />
+		</g>
+		<g transform="translate(400, 0)" opacity="0">
+				<g opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 0)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+			</g>
+			<g  transform="translate(0, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1.5s" repeatCount="indefinite" />
+			</g>
+			<animate attributeName="opacity" values="0.9;0;" dur="3s" begin="2s" repeatCount="indefinite" />
+		</g>
+			<g transform="translate(500, 0)" opacity="0">
+			<g opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 0)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
+			</g>
+			<g  transform="translate(0, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1s" repeatCount="indefinite" />
+			</g>
+			
+			<g  transform="translate(100, 100)" opacity="0.5">
+				<rect x="0" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0s" repeatCount="indefinite"/></rect>
+				<rect x="0" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.35s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="0"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="0.7s" repeatCount="indefinite"/></rect>
+				<rect x="50" y="50"		width="50" height="50" 	fill="#dd0" opacity="0.5"><animate attributeName="opacity" values="1;0.5;" dur="1s" begin="1s" repeatCount="indefinite"/></rect>			
+				<animate attributeName="opacity" values="1;0.5;1;" dur="1.5s" begin="1.5s" repeatCount="indefinite" />
+			</g>
+			<animate attributeName="opacity" values="0.9;0;" dur="3s" begin="2.5s" repeatCount="indefinite" />
+		</g>
+	</g>
+
+		<filter id="displacementFilter1" width="250%" height="250%">
+		<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="10" result="turbulence"> 
+			<animate attributeName="baseFrequency" values=" 0.02; 0.01; 0.02; " dur="2s" repeatCount="indefinite" />
+			<animate attributeName="numOctaves" values=" 0; 5; " dur="0.1s" repeatCount="indefinite" />
+		</feTurbulence>
+		<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="20"> 
+			<animate attributeName="scale" values=" 10; 20; 10; " dur="10s" repeatCount="indefinite" />
+		</feDisplacementMap>
+	</filter>
+		<filter id="displacementFilter2" width="200%" height="200%">
+		<feTurbulence type="turbulence" baseFrequency="0" numOctaves="100" result="turbulence"> 
+			<animate attributeName="baseFrequency" values=" 0.003; 0.001; 0.003; " dur="2s" repeatCount="indefinite" />
+		</feTurbulence>
+		<feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50"> 
+			<animate attributeName="scale" values=" 0; 50; 0; " dur="10s" repeatCount="indefinite" />
+		</feDisplacementMap>
+	</filter>
+	<text x="15" y="40" fill="#fff" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter1);" font-weight="bold">
+		Hi there 👋
+	</text>
+	<text x="15" y="195" fill="#fff" font-size="25" font-family="sans-serif" style="filter: url(#displacementFilter2);" font-weight="bold">
+		👀
+	</text>
+	
+</svg>
